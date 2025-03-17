@@ -1,0 +1,31 @@
+# Node.js dependencies
+mymane-frontend-main/node_modules/
+mymane-frontend-main/.next/
+mymane-frontend-main/build/
+mymane-frontend-main/.env
+mymane-frontend-main/.DS_Store
+
+# React-specific files
+mymane-frontend-main/.eslintcache
+mymane-frontend-main/package-lock.json  # Exclude if using Yarn, otherwise remove this line
+mymane-frontend-main/yarn.lock          # Exclude if using npm, otherwise remove this line
+
+# .NET build artifacts
+mymane-backend-main/My_Mane/bin/
+mymane-backend-main/My_Mane/obj/
+mymane-backend-main/My_Mane/.vs/
+mymane-backend-main/My_Mane/.idea/
+mymane-backend-main/My_Mane/.vscode/
+
+# .NET config files
+mymane-backend-main/My_Mane/appsettings.json
+mymane-backend-main/My_Mane/appsettings.Development.json
+
+# Logs and temp files
+*.log
+*.tmp
+*.cache
+
+# Ignore OS-specific files
+Thumbs.db
+.DS_Store
